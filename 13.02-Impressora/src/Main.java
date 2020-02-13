@@ -1,5 +1,5 @@
-import java.util.ArrayList;
-import java.util.List;
+// import java.util.ArrayList;
+// import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,8 +7,9 @@ public class Main {
         Foto foto1 = new Foto("foto1", "tipoDeFoto1");
         Documento documento1 = new Documento("documento1", "tipoDeDocumento1");
 
-        List<Imprimivel> lista1 = new ArrayList<>();
-        Impressora impressora1 = new Impressora(lista1);
+        //List<Imprimivel> lista1 = new ArrayList<>();
+        //Impressora impressora1 = new Impressora(lista1);
+        Impressora impressora1 = new Impressora();
 
         impressora1.adicionarImprimivel(contrato1);
         impressora1.adicionarImprimivel(foto1);
